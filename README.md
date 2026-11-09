@@ -8,6 +8,7 @@
   <a href="https://zerocanary.com"><img src="https://img.shields.io/badge/Platform-zerocanary.com-0d1117?style=for-the-badge&logo=shield&logoColor=C69B4B&labelColor=161b22&color=21262d" alt="zerocanary.com"></a>
   <a href="https://zerocanary.com/press"><img src="https://img.shields.io/badge/Press_%26_Media-Brand_Kit-0d1117?style=for-the-badge&logo=readthedocs&logoColor=C69B4B&labelColor=161b22&color=21262d" alt="Press & Media"></a>
   <a href="https://www.linkedin.com/showcase/zerocanary/"><img src="https://img.shields.io/badge/LinkedIn-ZeroCanary-0d1117?style=for-the-badge&logo=linkedin&logoColor=C69B4B&labelColor=161b22&color=21262d" alt="LinkedIn"></a>
+  <a href="https://x.com/zerocanary_com"><img src="https://img.shields.io/badge/X-@zerocanary__com-0d1117?style=for-the-badge&logo=x&logoColor=C69B4B&labelColor=161b22&color=21262d" alt="X @zerocanary_com"></a>
 </p>
 
 <p align="center">
@@ -83,6 +84,8 @@ ZeroCanary operates on anonymous bearer continuity passes (`ZC-...`) without use
 ## Public Verification & Machine-Readable Specifications
 
 - **Live Enclave & Continuity Console:** [https://zerocanary.com](https://zerocanary.com)
+- **Official LinkedIn Showcase:** [https://www.linkedin.com/showcase/zerocanary/](https://www.linkedin.com/showcase/zerocanary/)
+- **Official X Channel:** [https://x.com/zerocanary_com](https://x.com/zerocanary_com) (`@zerocanary_com`)
 - **Standalone SHA-256 Proof Lookup:** `https://zerocanary.com/?verify=<64-hex-sha256>`
 - **Press & Brand Assets (`EN / DE / ES / FR / PL`):** [https://zerocanary.com/press](https://zerocanary.com/press)
 - **LLM & Technical Architecture Summary:** [https://zerocanary.com/llms.txt](https://zerocanary.com/llms.txt)
