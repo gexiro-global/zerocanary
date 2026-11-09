@@ -8,7 +8,7 @@ If you discover a cryptographic, authentication, plausible-deniability oracle, c
 
 Report findings privately to:
 
-- **Email:** `security@zerocanary.com`
+- **Security Team:** `security@gexiro.com` / `legal@gexiro.com`
 - **Canonical Policy (RFC 9116):** `https://zerocanary.com/.well-known/security.txt`
 
 Please include:
