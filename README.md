@@ -1,14 +1,14 @@
 <p align="center">
   <a href="https://zerocanary.com">
-    <img src="https://zerocanary.com/assets/og/og-card.png" alt="ZeroCanary — Sovereign Fiduciary Continuity & Client-Side Encrypted Dead Man's Switch" width="100%" />
+    <img src="https://zerocanary.com/assets/og/og-card.png?v=3" alt="ZeroCanary — Sovereign Fiduciary Continuity & Client-Side Encrypted Dead Man's Switch" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://zerocanary.com"><img src="https://img.shields.io/badge/Platform-zerocanary.com-0d1117?style=for-the-badge&logo=shield&logoColor=C69B4B&labelColor=161b22&color=21262d" alt="zerocanary.com"></a>
-  <a href="https://zerocanary.com/press"><img src="https://img.shields.io/badge/Press_%26_Media-Brand_Kit-0d1117?style=for-the-badge&logo=readthedocs&logoColor=C69B4B&labelColor=161b22&color=21262d" alt="Press & Media"></a>
-  <a href="https://www.linkedin.com/showcase/zerocanary/"><img src="https://img.shields.io/badge/LinkedIn-ZeroCanary-0d1117?style=for-the-badge&logo=linkedin&logoColor=C69B4B&labelColor=161b22&color=21262d" alt="LinkedIn"></a>
-  <a href="https://x.com/zerocanary_com"><img src="https://img.shields.io/badge/X-@zerocanary__com-0d1117?style=for-the-badge&logo=x&logoColor=C69B4B&labelColor=161b22&color=21262d" alt="X @zerocanary_com"></a>
+  <a href="https://zerocanary.com"><img src="https://img.shields.io/badge/Platform-zerocanary.com-0d1117?style=for-the-badge&logo=shield&logoColor=C9A45C&labelColor=161b22&color=21262d" alt="zerocanary.com"></a>
+  <a href="https://zerocanary.com/press"><img src="https://img.shields.io/badge/Press_%26_Media-Brand_Kit-0d1117?style=for-the-badge&logo=readthedocs&logoColor=C9A45C&labelColor=161b22&color=21262d" alt="Press & Media"></a>
+  <a href="https://www.linkedin.com/showcase/zerocanary/"><img src="https://img.shields.io/badge/LinkedIn-ZeroCanary-0d1117?style=for-the-badge&logo=linkedin&logoColor=C9A45C&labelColor=161b22&color=21262d" alt="LinkedIn"></a>
+  <a href="https://x.com/zerocanary_com"><img src="https://img.shields.io/badge/X-@zerocanary__com-0d1117?style=for-the-badge&logo=x&logoColor=C9A45C&labelColor=161b22&color=21262d" alt="X @zerocanary_com"></a>
 </p>
 
 <p align="center">
@@ -86,10 +86,12 @@ ZeroCanary operates worldwide on anonymous bearer continuity passes (`ZC-...`) w
 ## Public Verification & Machine-Readable Specifications
 
 - **Live Enclave & Continuity Console:** [https://zerocanary.com](https://zerocanary.com)
+- **Official Brand Identity (Fiduciary Shield):** [https://zerocanary.com/press#brand-assets](https://zerocanary.com/press#brand-assets)
 - **Official LinkedIn Showcase:** [https://www.linkedin.com/showcase/zerocanary/](https://www.linkedin.com/showcase/zerocanary/)
 - **Official X Channel:** [https://x.com/zerocanary_com](https://x.com/zerocanary_com) (`@zerocanary_com`)
-- **Standalone SHA-256 Proof Lookup:** `https://zerocanary.com/?verify=<64-hex-sha256>`
-- **Official Press & Brand Kit:** [https://zerocanary.com/press](https://zerocanary.com/press)
+- **Standalone SHA-256 Proof Lookup:** [https://zerocanary.com/tools/sha256-notary](https://zerocanary.com/tools/sha256-notary)
+- **Continuity Readiness & Bus-Factor Audit:** [https://zerocanary.com/tools/continuity-score](https://zerocanary.com/tools/continuity-score)
+- **Architecture Briefings:** [https://zerocanary.com/briefings](https://zerocanary.com/briefings)
 - **LLM & Technical Architecture Summary:** [https://zerocanary.com/llms.txt](https://zerocanary.com/llms.txt)
 - **Vulnerability Disclosure Policy (RFC 9116):** [https://zerocanary.com/.well-known/security.txt](https://zerocanary.com/.well-known/security.txt) · [SECURITY.md](SECURITY.md)
 
