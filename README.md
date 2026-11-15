@@ -6,16 +6,19 @@
 
 <p align="center">
   <a href="https://zerocanary.com"><img src="https://img.shields.io/badge/Platform-zerocanary.com-0d1117?style=for-the-badge&logo=shield&logoColor=C9A45C&labelColor=161b22&color=21262d" alt="zerocanary.com"></a>
+  <a href="https://zerocanary.com/for-law-firms"><img src="https://img.shields.io/badge/B2B-Law_Firms_%26_Counsel-0d1117?style=for-the-badge&logo=scale&logoColor=C9A45C&labelColor=161b22&color=21262d" alt="For Law Firms"></a>
   <a href="https://zerocanary.com/press"><img src="https://img.shields.io/badge/Press_%26_Media-Brand_Kit-0d1117?style=for-the-badge&logo=readthedocs&logoColor=C9A45C&labelColor=161b22&color=21262d" alt="Press & Media"></a>
   <a href="https://www.linkedin.com/showcase/zerocanary/"><img src="https://img.shields.io/badge/LinkedIn-ZeroCanary-0d1117?style=for-the-badge&logo=linkedin&logoColor=C9A45C&labelColor=161b22&color=21262d" alt="LinkedIn"></a>
   <a href="https://x.com/zerocanary_com"><img src="https://img.shields.io/badge/X-@zerocanary__com-0d1117?style=for-the-badge&logo=x&logoColor=C9A45C&labelColor=161b22&color=21262d" alt="X @zerocanary_com"></a>
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Release-v1.0.22--global--i18n-C9A45C?style=flat-square" alt="Release v1.0.22-global-i18n">
+  <img src="https://img.shields.io/badge/Languages-EN_%C2%B7_DE_%C2%B7_ES_%C2%B7_FR_%C2%B7_PL_(85_SSR_URLs)-38BDF8?style=flat-square" alt="5 Languages 85 SSR URLs">
   <img src="https://img.shields.io/badge/Encryption-AES--256--GCM_(WebCrypto)-10B981?style=flat-square" alt="AES-256-GCM">
   <img src="https://img.shields.io/badge/KDF-PBKDF2--SHA256_(600k)-0284C7?style=flat-square" alt="PBKDF2 600k">
   <img src="https://img.shields.io/badge/Auth-SCRAM--SHA256_%2B_Threshold_secp256k1-6366F1?style=flat-square" alt="SCRAM + Threshold secp256k1">
-  <img src="https://img.shields.io/badge/Attachments-Multi--File_%E2%89%A450_MB-14B8A6?style=flat-square" alt="Multi-File <= 50 MB">
+  <img src="https://img.shields.io/badge/Settlement-USD_%C2%B7_EUR_%C2%B7_PLN_%2B_USDC-14B8A6?style=flat-square" alt="USD EUR PLN + USDC">
   <img src="https://img.shields.io/badge/Recovery-Air--Gapped_.html-D97706?style=flat-square" alt="Air-Gapped HTML">
 </p>
 
@@ -23,7 +26,7 @@
 
 # ZeroCanary
 
-**Client-side encrypted fiduciary continuity vault, Dead Man's Switch, and air-gapped recovery architecture for private individuals, founders, family offices, and legal counsel worldwide.**
+**Client-side encrypted fiduciary continuity vault, Dead Man's Switch, and air-gapped recovery architecture for private individuals, founders, family offices, and legal counsel worldwide — published natively across 5 languages (`EN`, `DE`, `ES`, `FR`, `PL`) and 17 localized routes (`85` canonical SSR URLs).**
 
 ZeroCanary enables asset owners to seal succession directives, recovery credentials, corporate continuity instructions, and multi-file binary archives (`.pdf`, `.zip`, `.7z`, `.key`, `.jpg`, `.docx`, up to `50 MB` per deposit, auto-bundled in-browser) before any byte leaves the device. No user account, email registration, or plaintext key custody is required.
 
@@ -40,7 +43,7 @@ ZeroCanary enables asset owners to seal succession directives, recovery credenti
 | **Envelope v3 Three-Role Key Separation** | Independent DEK key-wrapping (`ownerWrap`, `onlineWrap`, `offlineAirgapWrap`) | Owners assign a dedicated **Recipient Unlock Password** for heirs or legal counsel without sharing their **Owner Main Password** or **Emergency Duress Password**. |
 | **Replay-Resistant Two-Way Check-Ins** | Mutual challenge-response `SCRAM-SHA-256` proofs bound to action, payload digest, timestamp, and single-use server nonces | Owners confirm presence, extend timers (`1h` to `365d`), edit instructions, and add or replace encrypted attachments while preserving recipient key-wraps. |
 | **Zero-Oracle Coercion Shield (Plausible Deniability)** | Indistinguishable `HEARTBEAT_VERIFIED` duress flow + decoy cover note + decoy offline kit + `24h` public `423 Locked` shield | Under physical coercion, an attacker sees a routine check-in and harmless cover note while authorized counsel receives an HMAC-signed webhook with an immediate recovery token (`?ert=`). |
-| **Standalone Air-Gapped Offline Recovery Kit (`.html`)** | Self-contained, zero-dependency HTML + WebCrypto decryptor with built-in multilingual UI | Embeds ciphertext up to `20 MB` directly inside the `.html` file for 100% air-gapped offline decryption (`file:///`) and streams larger `20–50 MB` encrypted archives from EU zero-knowledge custody upon release. |
+| **Standalone Air-Gapped Offline Recovery Kit (`.html`)** | Self-contained, zero-dependency HTML + WebCrypto decryptor with built-in 5-language UI (`EN`, `DE`, `ES`, `FR`, `PL`) | Embeds ciphertext up to `20 MB` directly inside the `.html` file for 100% air-gapped offline decryption (`file:///`) and streams larger `20–50 MB` encrypted archives from EU zero-knowledge custody upon release. |
 | **Fiduciary Handover Toolkit** | Printable Safe / Notary Handover Certificate + RFC 5545 `.ics` check-in schedule + `24h` pre-expiry webhook alert | Designed for physical safe-deposit envelopes, estate attorneys, and institutional continuity binders. |
 
 ---
@@ -70,28 +73,32 @@ ZeroCanary enables asset owners to seal succession directives, recovery credenti
 
 ---
 
-## Continuity Plans & Global Settlement
+## Continuity Plans & Global Multi-Currency Settlement
 
-ZeroCanary operates worldwide on anonymous bearer continuity passes (`ZC-...`) without user accounts or recurring auto-charge traps.
+ZeroCanary operates globally across **5 localized SSR languages (`EN`, `DE`, `ES`, `FR`, `PL`)** on anonymous bearer continuity passes (`ZC-...`) without user accounts or recurring auto-charge traps.
 
-| Tier | Cadence & Scope | Settlement |
+| Tier | Cadence & Scope | Multi-Currency Settlement (`USD · EUR · PLN · USDC`) |
 | :--- | :--- | :--- |
 | **Evaluation Sandbox** | `$0` · `1-hour` test cadence · client-side encryption, three-role passwords & offline kit verification | Instant access (`No card required`) |
-| **Private Sovereign Pass** | `$49` (`3m`) · `$89` (`6m`) · `$149` (`12m`) · up to `10` active deposits · `24h–365d` cadences · multi-file attachments (`<= 50 MB`) + `30-day` grace | **Active:** Stripe Institutional Checkout (`Apple Pay`, `Google Pay`, `Payment Cards`, `Instant Bank Transfers`) |
-| **Law Firm & Family Office (`COUNSEL`)** | `$490 / year` · **unlimited** active client deposits · multi-file attachments (`<= 50 MB`) · HMAC webhook automation & B2B VAT invoice | **Active:** Stripe Institutional B2B Checkout |
-| **Sovereign Crypto Settlement** | `BTC · USDC · ETH` non-custodial bearer pass issuance without banking intermediaries | **Planned Roadmap** |
+| **ZeroCanary Solo Pass (`SOLO`)** | `$39` · `€36` · `159 PLN` (`12m`) · `1` active deposit · `24h–365d` cadences · multi-file attachments (`<= 50 MB`) + `30-day` grace | **Active:** Stripe (`Card`, `Apple/Google Pay`, `SEPA EUR`, `BLIK/P24 PLN`) + **On-Chain `USDC`** (`Base`, `Arbitrum`, `Ethereum`) |
+| **Private Sovereign Pass (`SOVEREIGN`)** | `$49 / €45 / 199 PLN` (`3m`) · `$89 / €82 / 359 PLN` (`6m`) · `$149 / €139 / 599 PLN` (`12m`) · up to `10` active deposits · `24h–365d` cadences · `<= 50 MB` archives + `30-day` grace | **Active:** Stripe (`Card`, `Apple/Google Pay`, `SEPA EUR`, `BLIK/P24 PLN`) + **On-Chain `USDC`** (`Base`, `Arbitrum`, `Ethereum`) |
+| **Law Firm & Family Office (`COUNSEL`)** | `$490` · `€450` · `1,990 PLN` (`12m`) · **unlimited** active client deposits · `<= 50 MB` archives · HMAC webhook automation, B2B VAT invoice & **14-Day Law Firm Pilot** | **Active:** Stripe Institutional B2B Checkout (`USD · EUR · PLN`) & Counsel Pilot (`/for-law-firms`) |
+| **Non-Custodial On-Chain Settlement (`USDC`)** | Direct `USDC` settlement on **Base**, **Arbitrum One**, and **Ethereum** with automated on-chain confirmation & instant bearer pass issuance | **Active:** Automated On-Chain Intent & Proof Claim |
 
 ---
 
 ## Public Verification & Machine-Readable Specifications
 
-- **Live Enclave & Continuity Console:** [https://zerocanary.com](https://zerocanary.com)
+- **Live Enclave & Continuity Console (`EN | DE | ES | FR | PL`):** [https://zerocanary.com](https://zerocanary.com)
+- **For Law Firms & Estate Counsel:** [https://zerocanary.com/for-law-firms](https://zerocanary.com/for-law-firms) · [Deutsch: /fuer-kanzleien](https://zerocanary.com/fuer-kanzleien)
+- **Architecture & Threat-Model Comparisons:** [https://zerocanary.com/compare](https://zerocanary.com/compare)
 - **Official Brand Identity (Fiduciary Shield):** [https://zerocanary.com/press#brand-assets](https://zerocanary.com/press#brand-assets)
 - **Official LinkedIn Showcase:** [https://www.linkedin.com/showcase/zerocanary/](https://www.linkedin.com/showcase/zerocanary/)
 - **Official X Channel:** [https://x.com/zerocanary_com](https://x.com/zerocanary_com) (`@zerocanary_com`)
 - **Standalone SHA-256 Proof Lookup:** [https://zerocanary.com/tools/sha256-notary](https://zerocanary.com/tools/sha256-notary)
 - **Continuity Readiness & Bus-Factor Audit:** [https://zerocanary.com/tools/continuity-score](https://zerocanary.com/tools/continuity-score)
 - **Architecture Briefings:** [https://zerocanary.com/briefings](https://zerocanary.com/briefings)
+- **Multilingual Sitemap (`85` Localized HTML URLs + `llms.txt`):** [https://zerocanary.com/sitemap.xml](https://zerocanary.com/sitemap.xml)
 - **LLM & Technical Architecture Summary:** [https://zerocanary.com/llms.txt](https://zerocanary.com/llms.txt)
 - **Vulnerability Disclosure Policy (RFC 9116):** [https://zerocanary.com/.well-known/security.txt](https://zerocanary.com/.well-known/security.txt) · [SECURITY.md](SECURITY.md)
 
