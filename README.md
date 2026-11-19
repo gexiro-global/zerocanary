@@ -13,12 +13,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Release-v1.1.0--conversion-C9A45C?style=flat-square" alt="Release v1.1.0-conversion">
+  <img src="https://img.shields.io/badge/Release-v1.1.1--telemetry-C9A45C?style=flat-square" alt="Release v1.1.1-telemetry">
   <img src="https://img.shields.io/badge/Languages-EN_%C2%B7_DE_%C2%B7_ES_%C2%B7_FR_%C2%B7_PL_(85_SSR_URLs)-38BDF8?style=flat-square" alt="5 Languages 85 SSR URLs">
   <img src="https://img.shields.io/badge/Encryption-AES--256--GCM_(WebCrypto)-10B981?style=flat-square" alt="AES-256-GCM">
   <img src="https://img.shields.io/badge/KDF-PBKDF2--SHA256_(600k)-0284C7?style=flat-square" alt="PBKDF2 600k">
   <img src="https://img.shields.io/badge/Auth-SCRAM--SHA256_%2B_Threshold_secp256k1-6366F1?style=flat-square" alt="SCRAM + Threshold secp256k1">
   <img src="https://img.shields.io/badge/Settlement-USD_%C2%B7_EUR_%C2%B7_PLN_%2B_USDC-14B8A6?style=flat-square" alt="USD EUR PLN + USDC">
+  <img src="https://img.shields.io/badge/Telemetry-Zero--Cookie_·_Zero--IP-F59E0B?style=flat-square" alt="Zero-Cookie Zero-IP Telemetry">
   <img src="https://img.shields.io/badge/Recovery-Air--Gapped_.html-D97706?style=flat-square" alt="Air-Gapped HTML">
 </p>
 
@@ -28,7 +29,7 @@
 
 **Client-side encrypted fiduciary continuity vault, Dead Man's Switch, and air-gapped recovery architecture for private individuals, founders, family offices, and legal counsel worldwide — published natively across 5 languages (`EN`, `DE`, `ES`, `FR`, `PL`) and 17 localized routes (`85` canonical SSR URLs).**
 
-ZeroCanary enables asset owners to seal succession directives, recovery credentials, corporate continuity instructions, and multi-file binary archives (`.pdf`, `.zip`, `.7z`, `.key`, `.jpg`, `.docx`, up to `50 MB` per deposit, auto-bundled in-browser) before any byte leaves the device — verifiable live in browser RAM via our zero-delay WebCrypto sandbox before committing a single byte to storage. No user account, email registration, or plaintext key custody is required.
+ZeroCanary enables asset owners to seal succession directives, recovery credentials, corporate continuity instructions, and multi-file binary archives (`.pdf`, `.zip`, `.7z`, `.key`, `.jpg`, `.docx`, up to `50 MB` per deposit, auto-bundled in-browser) before any byte leaves the device — verifiable live in browser RAM via our zero-delay WebCrypto sandbox before committing a single byte to storage. No user account, email registration, tracking cookies, or plaintext key custody is required.
 
 > **Repository Scope:** This repository serves as the official public architectural specification, verification reference, and security disclosure hub for **ZeroCanary** (`https://zerocanary.com`). Production edge infrastructure, threshold notary canisters, and client enclaves are maintained in sovereign private infrastructure by Gexiro Global Enterprises Ltd.
 
@@ -38,7 +39,8 @@ ZeroCanary enables asset owners to seal succession directives, recovery credenti
 
 | Capability | Technical Implementation | Operational Guarantee |
 | :--- | :--- | :--- |
-| **Client-Side Zero-Knowledge Sealing (`<= 50 MB` Multi-File)** | Native browser W3C WebCrypto (`AES-256-GCM`, `PBKDF2-HMAC-SHA-256` at `600,000` iterations) + in-browser multi-file `PKZIP` bundling | Plaintext directives, files, and passwords never leave the client browser (`0 bytes sent` in live sandbox). |
+| **Client-Side Zero-Knowledge Sealing (`<= 50 MB` Multi-File)** | Native browser W3C WebCrypto (`AES-256-GCM`, `PBKDF2-HMAC-SHA-256` at `600,000` iterations) + in-browser multi-file `PKZIP` bundling | Plaintext directives, files, and passwords never leave the client browser (`0 bytes sent` in live sandbox and continuity score calculator). |
+| **Zero-Cookie, Zero-IP Edge Funnel Telemetry** | Same-origin-enforced aggregated UI interaction counters (`POST /api/v1/telemetry/event`) separated strictly from client crypto inputs | Measures only high-level navigation/conversion milestones with zero cookies, zero IP storage, and guaranteed zero network traffic during WebCrypto or score calculations. |
 | **Dual-Plane Zero-Knowledge Custody & Threshold Notary** | Sovereign European Union zero-knowledge object custody (`AES-256-GCM` ciphertext streams) + autonomous decentralized threshold notary (`SHA-256` commitments & `secp256k1` release attestations) | Zero plaintext visibility at the storage layer combined with tamper-evident on-chain countdown and release verification. |
 | **Envelope v3 Three-Role Key Separation** | Independent DEK key-wrapping (`ownerWrap`, `onlineWrap`, `offlineAirgapWrap`) | Owners assign a dedicated **Recipient Unlock Password** for heirs or legal counsel without sharing their **Owner Main Password** or **Emergency Duress Password**. |
 | **Replay-Resistant Two-Way Check-Ins** | Mutual challenge-response `SCRAM-SHA-256` proofs bound to action, payload digest, timestamp, and single-use server nonces | Owners confirm presence, extend timers (`1h` to `365d`), edit instructions, and add or replace encrypted attachments while preserving recipient key-wraps. |
