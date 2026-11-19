@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Release-v1.1.1--telemetry-C9A45C?style=flat-square" alt="Release v1.1.1-telemetry">
+  <img src="https://img.shields.io/badge/Release-v1.1.2--indexing-C9A45C?style=flat-square" alt="Release v1.1.2-indexing">
   <img src="https://img.shields.io/badge/Languages-EN_%C2%B7_DE_%C2%B7_ES_%C2%B7_FR_%C2%B7_PL_(85_SSR_URLs)-38BDF8?style=flat-square" alt="5 Languages 85 SSR URLs">
   <img src="https://img.shields.io/badge/Encryption-AES--256--GCM_(WebCrypto)-10B981?style=flat-square" alt="AES-256-GCM">
   <img src="https://img.shields.io/badge/KDF-PBKDF2--SHA256_(600k)-0284C7?style=flat-square" alt="PBKDF2 600k">
