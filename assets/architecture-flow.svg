@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none">
+  <rect width="1200" height="440" fill="#0C0A08"/>
+  <rect x="12" y="12" width="1176" height="416" rx="16" fill="#151310" stroke="#2A2520" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="42" y="54" fill="#D99B26" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1.6">DUAL-PLANE ZERO-KNOWLEDGE CONTINUITY ARCHITECTURE</text>
+  <text x="42" y="80" fill="#F5F2EB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="600">End-to-End Cryptographic Separation Between Client Secrets, EU Custody &amp; Threshold Release</text>
+  <line x1="42" y1="98" x2="1158" y2="98" stroke="#2A2520" stroke-width="1"/>
+
+  <!-- Connectors -->
+  <g stroke="#D99B26" stroke-width="2" stroke-linecap="round">
+    <line x1="298" y1="242" x2="324" y2="242"/>
+    <polyline points="317,236 325,242 317,248" fill="none"/>
+    <line x1="586" y1="242" x2="612" y2="242"/>
+    <polyline points="605,236 613,242 605,248" fill="none"/>
+    <line x1="874" y1="242" x2="900" y2="242"/>
+    <polyline points="893,236 901,242 893,248" fill="none"/>
+  </g>
+
+  <!-- Column 1 -->
+  <rect x="42" y="118" width="252" height="252" rx="12" fill="#1D1A16" stroke="#3A3229" stroke-width="1.2"/>
+  <rect x="42" y="118" width="252" height="44" rx="12" fill="#231E18"/>
+  <text x="58" y="145" fill="#EAB854" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700">01 · BROWSER ENCLAVE</text>
+  <g fill="#F5F2EB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5">
+    <text x="58" y="192" font-weight="600">W3C WebCrypto RAM Seal</text>
+    <text x="58" y="226" fill="#C8C0B4">AES-256-GCM Ciphertext</text>
+    <text x="58" y="260" fill="#C8C0B4">PBKDF2 600,000 Iterations</text>
+    <text x="58" y="294" fill="#C8C0B4">Envelope v3 Split Key-Wraps</text>
+    <text x="58" y="336" fill="#D99B26" font-weight="600">0 Bytes Plaintext Uploaded</text>
+  </g>
+
+  <!-- Column 2 -->
+  <rect x="330" y="118" width="252" height="252" rx="12" fill="#1D1A16" stroke="#6B5023" stroke-width="1.2"/>
+  <rect x="330" y="118" width="252" height="44" rx="12" fill="#282013"/>
+  <text x="346" y="145" fill="#EAB854" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700">02 · DUAL-PLANE CUSTODY</text>
+  <g fill="#F5F2EB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5">
+    <text x="346" y="192" font-weight="600">EU R2 Custody (eeur &lt;=50 MB)</text>
+    <text x="346" y="226" fill="#C8C0B4">ICP Mainnet Notary Canister</text>
+    <text x="346" y="260" fill="#C8C0B4">ID: sctry-7qaaa-aaaam-qjsuq-cai</text>
+    <text x="346" y="294" fill="#C8C0B4">Threshold secp256k1 Proofs</text>
+    <text x="346" y="336" fill="#D99B26" font-weight="600">Immutable SHA-256 Anchor</text>
+  </g>
+
+  <!-- Column 3 -->
+  <rect x="618" y="118" width="252" height="252" rx="12" fill="#1D1A16" stroke="#3A3229" stroke-width="1.2"/>
+  <rect x="618" y="118" width="252" height="44" rx="12" fill="#231E18"/>
+  <text x="634" y="145" fill="#EAB854" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700">03 · CHECK-IN &amp; DURESS</text>
+  <g fill="#F5F2EB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5">
+    <text x="634" y="192" font-weight="600">Mutual SCRAM-SHA-256 Proof</text>
+    <text x="634" y="226" fill="#C8C0B4">24h-365d Cadence + 30d Grace</text>
+    <text x="634" y="260" fill="#C8C0B4">24h Zero-Oracle Duress Shield</text>
+    <text x="634" y="294" fill="#C8C0B4">Indistinguishable HTTP 200 State</text>
+    <text x="634" y="336" fill="#D99B26" font-weight="600">HMAC Counsel Webhook (?ert=)</text>
+  </g>
+
+  <!-- Column 4 -->
+  <rect x="906" y="118" width="252" height="252" rx="12" fill="#1D1A16" stroke="#3A3229" stroke-width="1.2"/>
+  <rect x="906" y="118" width="252" height="44" rx="12" fill="#231E18"/>
+  <text x="922" y="145" fill="#EAB854" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="700">04 · AIR-GAPPED RECOVERY</text>
+  <g fill="#F5F2EB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5">
+    <text x="922" y="192" font-weight="600">Standalone .html Recovery Kit</text>
+    <text x="922" y="226" fill="#C8C0B4">&lt;=20 MB Inline / &lt;=50 MB Stream</text>
+    <text x="922" y="260" fill="#C8C0B4">20-Year file:/// Independence</text>
+    <text x="922" y="294" fill="#C8C0B4">Zero-LLM In-RAM Navigator</text>
+    <text x="922" y="336" fill="#D99B26" font-weight="600">0 Network Queries on Search</text>
+  </g>
+
+  <!-- Bottom Verification Strip -->
+  <rect x="42" y="384" width="1116" height="30" rx="6" fill="#1D1A16" stroke="#2A2520" stroke-width="1"/>
+  <text x="600" y="403" text-anchor="middle" fill="#A8A095" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12">LIVE CANISTER WASM SHA-256: b6b1721e7a64e5f92c2f05b8697b71e9c552b48ebd6289e5aac994b15c1033e6</text>
+</svg>

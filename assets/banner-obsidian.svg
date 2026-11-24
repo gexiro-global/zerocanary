@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0C0A08"/>
+      <stop offset="100%" stop-color="#13100D"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="18" y1="10" x2="78" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F2DCAA"/>
+      <stop offset="52%" stop-color="#D99B26"/>
+      <stop offset="100%" stop-color="#96712E"/>
+    </linearGradient>
+    <linearGradient id="goldLine" x1="56" y1="0" x2="1224" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D99B26" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#D99B26" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#2A2520" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="amberHalo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1060 110) rotate(135) scale(420 260)">
+      <stop offset="0%" stop-color="#D99B26" stop-opacity="0.16"/>
+      <stop offset="60%" stop-color="#D99B26" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#0C0A08" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bgGrad)"/>
+  <rect x="16" y="16" width="1248" height="388" rx="18" fill="#151310" stroke="#2A2520" stroke-width="1.5"/>
+  <rect x="16" y="16" width="1248" height="388" rx="18" fill="url(#amberHalo)"/>
+
+  <!-- Subtle architectural grid lines -->
+  <g stroke="#24201B" stroke-width="1">
+    <line x1="880" y1="16" x2="880" y2="404"/>
+    <line x1="1060" y1="16" x2="1060" y2="404"/>
+    <line x1="16" y1="336" x2="1264" y2="336"/>
+  </g>
+  <rect x="56" y="335" width="1168" height="1.5" fill="url(#goldLine)"/>
+
+  <!-- Top left Fiduciary Shield mark (from logomark.svg) -->
+  <g transform="translate(56, 54) scale(0.95)">
+    <path d="M44 10L16 21V48.5C16 67.8 29.1 81.4 44 87V57.8L33.5 45L44 32.2V10Z" fill="url(#goldGrad)"/>
+    <path d="M52 10L80 21V48.5C80 67.8 66.9 81.4 52 87V57.8L62.5 45L52 32.2V10Z" fill="url(#goldGrad)"/>
+    <circle cx="48" cy="45" r="5.8" fill="#FFF4D4"/>
+  </g>
+
+  <!-- Title + Version Pill -->
+  <text x="168" y="96" fill="#F5F2EB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-0.5">ZeroCanary</text>
+  <text x="168" y="130" fill="#D99B26" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" font-weight="600" letter-spacing="1.4">SOVEREIGN DIGITAL CONTINUITY VAULT &amp; DEAD MAN'S SWITCH</text>
+
+  <!-- Top-right release tag box -->
+  <rect x="898" y="58" width="326" height="44" rx="10" fill="#1D1A16" stroke="#6B5023" stroke-width="1"/>
+  <text x="1061" y="85" text-anchor="middle" fill="#EAB854" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="600" letter-spacing="0.8">RELEASE v1.2.5 · PUBLIC SPEC</text>
+
+  <!-- Main value proposition -->
+  <text x="56" y="196" fill="#F5F2EB" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="600">Client-Side AES-256-GCM Custody, Zero-Oracle Duress Shield &amp; 20-Year Air-Gapped Recovery</text>
+  <text x="56" y="226" fill="#A8A095" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5">Plaintext keys and files stay inside browser RAM. Dual-plane EU R2 storage + ICP Mainnet Threshold Notary across EN · DE · ES · FR · PL.</text>
+
+  <!-- 5 Spec Pills (symmetrical row: x start 56, gap 16) -->
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="600">
+    <rect x="56" y="260" width="194" height="44" rx="8" fill="#1D1A16" stroke="#3A3229" stroke-width="1"/>
+    <text x="153" y="287" text-anchor="middle" fill="#F5F2EB">AES-256-GCM · 50 MB</text>
+
+    <rect x="266" y="260" width="206" height="44" rx="8" fill="#1D1A16" stroke="#3A3229" stroke-width="1"/>
+    <text x="369" y="287" text-anchor="middle" fill="#F5F2EB">PBKDF2 · 600,000 ITER</text>
+
+    <rect x="488" y="260" width="218" height="44" rx="8" fill="#1D1A16" stroke="#3A3229" stroke-width="1"/>
+    <text x="597" y="287" text-anchor="middle" fill="#F5F2EB">SCRAM + 24H DURESS</text>
+
+    <rect x="722" y="260" width="256" height="44" rx="8" fill="#1D1A16" stroke="#6B5023" stroke-width="1"/>
+    <text x="850" y="287" text-anchor="middle" fill="#EAB854">ICP CANISTER VERIFIED</text>
+
+    <rect x="994" y="260" width="230" height="44" rx="8" fill="#1D1A16" stroke="#3A3229" stroke-width="1"/>
+    <text x="1109" y="287" text-anchor="middle" fill="#F5F2EB">AIR-GAPPED .HTML KIT</text>
+  </g>
+
+  <!-- Footer bar inside frame -->
+  <text x="56" y="372" fill="#A8A095" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13">https://zerocanary.com   |   ICP Canister: sctry-7qaaa-aaaam-qjsuq-cai   |   Master Anchor: 3339665</text>
+  <text x="1224" y="372" text-anchor="end" fill="#D99B26" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" font-weight="600">PUBLIC ARCHITECTURE SPEC ONLY</text>
+</svg>

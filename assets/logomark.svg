@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
+  <defs>
+    <linearGradient id="zcShieldGold" x1="18" y1="10" x2="78" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ECD49A"/>
+      <stop offset="52%" stop-color="#C9A45C"/>
+      <stop offset="100%" stop-color="#96712E"/>
+    </linearGradient>
+  </defs>
+  <path d="M44 10L16 21V48.5C16 67.8 29.1 81.4 44 87V57.8L33.5 45L44 32.2V10Z" fill="url(#zcShieldGold)"/>
+  <path d="M52 10L80 21V48.5C80 67.8 66.9 81.4 52 87V57.8L62.5 45L52 32.2V10Z" fill="url(#zcShieldGold)"/>
+  <circle cx="48" cy="45" r="5.8" fill="#FFF4D4"/>
+</svg>
