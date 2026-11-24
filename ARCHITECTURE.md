@@ -64,7 +64,7 @@ Auditors can verify the live ICP Mainnet notary canister state independently aga
 | **Master Governance Anchor** | `3339665` |
 | **Live Wasm Module SHA-256** | `b6b1721e7a64e5f92c2f05b8697b71e9c552b48ebd6289e5aac994b15c1033e6` |
 | **Threshold ECDSA Public Key (`secp256k1`)** | `036e0032b752069dee0dbc076a4c4705e336199880678d0602340e56f304f1f96d` |
-| **Edge Runtime Version** | `v1.2.5-p3-defense-in-depth` |
+| **Edge Runtime Version** | `v1.2.7-sovereign-social-mesh` |
 | **Object Custody Jurisdiction** | European Union (`EU / eeur`) |
 
 ---

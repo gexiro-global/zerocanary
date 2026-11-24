@@ -19,10 +19,12 @@
   <a href="https://zerocanary.com/press"><img src="https://img.shields.io/badge/Press_%26_Media-Brand_Kit-0C0A08?style=for-the-badge&logo=readthedocs&logoColor=D99B26&labelColor=151310&color=1D1A16" alt="Press & Media"></a>
   <a href="https://www.linkedin.com/showcase/zerocanary/"><img src="https://img.shields.io/badge/LinkedIn-ZeroCanary-0C0A08?style=for-the-badge&logo=linkedin&logoColor=D99B26&labelColor=151310&color=1D1A16" alt="LinkedIn"></a>
   <a href="https://x.com/zerocanary_com"><img src="https://img.shields.io/badge/X-@zerocanary__com-0C0A08?style=for-the-badge&logo=x&logoColor=D99B26&labelColor=151310&color=1D1A16" alt="X @zerocanary_com"></a>
+  <a href="https://bsky.app/profile/zerocanary.com"><img src="https://img.shields.io/badge/Bluesky-@zerocanary.com-0C0A08?style=for-the-badge&logo=bluesky&logoColor=D99B26&labelColor=151310&color=1D1A16" alt="Bluesky @zerocanary.com"></a>
+  <a href="https://social.zerocanary.com/@zerocanary"><img src="https://img.shields.io/badge/Fediverse-@zerocanary@zerocanary.com-0C0A08?style=for-the-badge&logo=mastodon&logoColor=D99B26&labelColor=151310&color=1D1A16" alt="Fediverse"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Release-v1.2.5--p3--defense--in--depth-D99B26?style=flat-square&labelColor=151310" alt="Release v1.2.5-p3-defense-in-depth">
+  <img src="https://img.shields.io/badge/Release-v1.2.7--sovereign--social--mesh-D99B26?style=flat-square&labelColor=151310" alt="Release v1.2.7-sovereign-social-mesh">
   <img src="https://img.shields.io/badge/Languages-EN_%C2%B7_DE_%C2%B7_ES_%C2%B7_FR_%C2%B7_PL_(85_SSR_URLs)-38BDF8?style=flat-square&labelColor=151310" alt="5 Languages 85 SSR URLs">
   <img src="https://img.shields.io/badge/Encryption-AES--256--GCM_(WebCrypto)-10B981?style=flat-square&labelColor=151310" alt="AES-256-GCM">
   <img src="https://img.shields.io/badge/KDF-PBKDF2--SHA256_(600k)-0284C7?style=flat-square&labelColor=151310" alt="PBKDF2 600k">
@@ -77,7 +79,7 @@ External auditors and fiduciaries can independently verify ZeroCanary's live Mai
 | **Master Governance Anchor** | `3339665` |
 | **Live Canister Wasm SHA-256** | `b6b1721e7a64e5f92c2f05b8697b71e9c552b48ebd6289e5aac994b15c1033e6` |
 | **Threshold ECDSA Public Key (`secp256k1`, compressed)** | `036e0032b752069dee0dbc076a4c4705e336199880678d0602340e56f304f1f96d` |
-| **Active Edge Production Release** | `v1.2.5-p3-defense-in-depth` |
+| **Active Edge Production Release** | `v1.2.7-sovereign-social-mesh` |
 | **Public SHA-256 Proof Verifier** | [https://zerocanary.com/tools/sha256-notary](https://zerocanary.com/tools/sha256-notary) |
 
 ---
@@ -106,8 +108,8 @@ ZeroCanary operates globally across **5 localized SSR languages (`EN`, `DE`, `ES
 - **Institutional Press & Official Brand Kit:** [https://zerocanary.com/press](https://zerocanary.com/press)
 - **Continuity Tools (`SHA-256 Notary` & `Continuity Score`):** [`/tools`](https://zerocanary.com/tools)
 - **Architecture Briefings:** [https://zerocanary.com/briefings](https://zerocanary.com/briefings)
-- **Multilingual Sitemap (`85` Canonical HTML URLs + `llms.txt`):** [https://zerocanary.com/sitemap.xml](https://zerocanary.com/sitemap.xml) · [https://zerocanary.com/llms.txt](https://zerocanary.com/llms.txt)
-- **Official Channels:** [LinkedIn Showcase](https://www.linkedin.com/showcase/zerocanary/) · [X `@zerocanary_com`](https://x.com/zerocanary_com)
+- **Multilingual Sitemap (`85` Canonical HTML URLs + `llms.txt` + `RSS`):** [https://zerocanary.com/sitemap.xml](https://zerocanary.com/sitemap.xml) · [https://zerocanary.com/llms.txt](https://zerocanary.com/llms.txt) · [https://zerocanary.com/feed.xml](https://zerocanary.com/feed.xml)
+- **Official Channels:** [LinkedIn Showcase](https://www.linkedin.com/showcase/zerocanary/) · [X `@zerocanary_com`](https://x.com/zerocanary_com) · [Bluesky `@zerocanary.com`](https://bsky.app/profile/zerocanary.com) · [Fediverse `@zerocanary@zerocanary.com`](https://social.zerocanary.com/@zerocanary) · [Nostr NIP-05 `_@zerocanary.com`](https://zerocanary.com/.well-known/nostr.json)
 
 ---
 

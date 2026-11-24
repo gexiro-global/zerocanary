@@ -18,7 +18,7 @@ Please include:
 
 ## Verified Production Anchor & Scope
 
-- **Active Edge Release:** `v1.2.5-p3-defense-in-depth` (`https://zerocanary.com`)
+- **Active Edge Release:** `v1.2.7-sovereign-social-mesh` (`https://zerocanary.com`)
 - **ICP Mainnet Notary Canister:** `sctry-7qaaa-aaaam-qjsuq-cai` (Live Wasm SHA-256: `b6b1721e7a64e5f92c2f05b8697b71e9c552b48ebd6289e5aac994b15c1033e6`)
 - **In Scope:** `https://zerocanary.com`, `/api/v1/*` continuity endpoints, multi-file encrypted binary streaming (`/api/v1/vaults/:id/attachment`, up to `50 MB`), Envelope v3 three-role key-wrapping, SCRAM check-in verification, Duress plausible-deniability protections (`24h` coercion shield), the standalone Offline Recovery Kit (`.html`), and the client-side Zero-LLM In-RAM Navigator privacy boundary (`0` search queries sent over the network).
 - **Out of Scope:** Volumetric denial-of-service (`DoS/DDoS`), social engineering, physical attacks, or automated destructive scanning against third-party payment processors (`Stripe`, `EVM RPCs`, `ICP Rosetta`).
